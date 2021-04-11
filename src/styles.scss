@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "normalize.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-image: url("assets/images/bgc.png");
+}
