@@ -1,0 +1,91 @@
+@mixin data-style {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  opacity: 0.4;
+}
+@mixin text-style {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.program {
+  padding-top: 200px;
+  width: 70%;
+  margin: 0 auto;
+  color: #ffff;
+  .header {
+    .circle {
+      padding-bottom: 66px;
+
+      img {
+        height: 35px;
+      }
+    }
+    .title {
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 67px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .subtitle {
+      width: 411px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      opacity: 0.4;
+    }
+  }
+  .program-list {
+    .left {
+      width: 228px;
+      .left-item {
+        margin-bottom: 95px;
+        text-align: right;
+        .data {
+          margin-bottom: 15px;
+          @include data-style;
+        }
+        .text {
+          @include text-style;
+        }
+      }
+    }
+    .line {
+      margin-top: -90px;
+      height: 680px;
+      width: 2px;
+      background-color: #fff;
+      opacity: 0.4;
+    }
+    .right {
+      width: 228px;
+      .right-item {
+        margin-bottom: 95px;
+        text-align: left;
+        .data {
+          margin-bottom: 15px;
+          @include data-style;
+        }
+        .text {
+          @include text-style;
+        }
+      }
+    }
+  }
+}

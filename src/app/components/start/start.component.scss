@@ -1,0 +1,70 @@
+.start {
+  width: 70%;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 0 0 200px 0;
+  .start-title {
+    div {
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 67px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    img {
+      height: 50px;
+      width: 50px;
+      margin-right: 20px;
+      margin-top: -15px;
+    }
+    p {
+      width: 411px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      opacity: 0.4;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.procent {
+  div {
+    width: 250px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+}
+
+.one img {
+  height: 80px;
+  width: 100%;
+}
+.two img {
+  height: 60px;
+  width: 100%;
+}
+.three img {
+  height: 30px;
+  width: 100%;
+}
+.zero img {
+  height: 10px;
+  width: 100%;
+}
+.text {
+  margin-top: 30px;
+  div {
+    width: 220px;
+    margin-right: 22px;
+    opacity: 0.4;
+  }
+}

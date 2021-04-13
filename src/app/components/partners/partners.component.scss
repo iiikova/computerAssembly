@@ -1,0 +1,31 @@
+.partners {
+  padding-top: 200px;
+  width: 70%;
+  margin: 0 auto;
+  color: #ffffff;
+
+  .title {
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    .img img {
+      height: 45px;
+      width: 45px;
+      margin-top: -10px;
+      margin-right: 20px;
+    }
+  }
+  .partners-logos {
+    margin-top: 90px;
+    .logo {
+      margin: 15px;
+      img {
+          height: 90px;
+      }
+    }
+  }
+}
